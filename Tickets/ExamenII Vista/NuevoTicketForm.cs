@@ -125,7 +125,7 @@ namespace ExamenII_Vista
             ticket.DescripcionRespuesta= RespuestaTextBox.Text;
             ticket.Precio= Convert.ToDecimal(PrecioTextBox.Text);
             ticket.Impuesto = Convert.ToDecimal(ImpuestoTextBox.Text);
-            ticket.Descuento = Convert.ToDecimal(DescuentoTextBox.Text);
+            //ticket.Descuento = Convert.ToDecimal(DescuentoTextBox.Text);
             ticket.Total = Convert.ToDecimal(TotalTextBox.Text);
 
             //Insertar a la BD
