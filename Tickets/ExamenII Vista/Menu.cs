@@ -24,5 +24,13 @@ namespace ExamenII_Vista
             nuevoTicketForm.Show();
 
         }
+
+        private void CerrarButton_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Está seguro que desea cerrar sesión?", "Cerrar sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
